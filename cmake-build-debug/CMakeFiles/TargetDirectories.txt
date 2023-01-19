@@ -1,0 +1,3 @@
+/Users/haibin/CLionProjects/shittyhangman/cmake-build-debug/CMakeFiles/ucs8_spring23_review_stubs_and_drivers.dir
+/Users/haibin/CLionProjects/shittyhangman/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/haibin/CLionProjects/shittyhangman/cmake-build-debug/CMakeFiles/rebuild_cache.dir
