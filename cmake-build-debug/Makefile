@@ -117,24 +117,24 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named ucs8_spring23_review_stubs_and_drivers
+# Target rules for targets named shittyhangman
 
 # Build rule for target.
-ucs8_spring23_review_stubs_and_drivers: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ucs8_spring23_review_stubs_and_drivers
-.PHONY : ucs8_spring23_review_stubs_and_drivers
+shittyhangman: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 shittyhangman
+.PHONY : shittyhangman
 
 # fast build rule for target.
-ucs8_spring23_review_stubs_and_drivers/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ucs8_spring23_review_stubs_and_drivers.dir/build.make CMakeFiles/ucs8_spring23_review_stubs_and_drivers.dir/build
-.PHONY : ucs8_spring23_review_stubs_and_drivers/fast
+shittyhangman/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/shittyhangman.dir/build.make CMakeFiles/shittyhangman.dir/build
+.PHONY : shittyhangman/fast
 
 Accuracy.o: Accuracy.cpp.o
 .PHONY : Accuracy.o
 
 # target to build an object file
 Accuracy.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ucs8_spring23_review_stubs_and_drivers.dir/build.make CMakeFiles/ucs8_spring23_review_stubs_and_drivers.dir/Accuracy.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/shittyhangman.dir/build.make CMakeFiles/shittyhangman.dir/Accuracy.cpp.o
 .PHONY : Accuracy.cpp.o
 
 Accuracy.i: Accuracy.cpp.i
@@ -142,7 +142,7 @@ Accuracy.i: Accuracy.cpp.i
 
 # target to preprocess a source file
 Accuracy.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ucs8_spring23_review_stubs_and_drivers.dir/build.make CMakeFiles/ucs8_spring23_review_stubs_and_drivers.dir/Accuracy.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/shittyhangman.dir/build.make CMakeFiles/shittyhangman.dir/Accuracy.cpp.i
 .PHONY : Accuracy.cpp.i
 
 Accuracy.s: Accuracy.cpp.s
@@ -150,15 +150,63 @@ Accuracy.s: Accuracy.cpp.s
 
 # target to generate assembly for a file
 Accuracy.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ucs8_spring23_review_stubs_and_drivers.dir/build.make CMakeFiles/ucs8_spring23_review_stubs_and_drivers.dir/Accuracy.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/shittyhangman.dir/build.make CMakeFiles/shittyhangman.dir/Accuracy.cpp.s
 .PHONY : Accuracy.cpp.s
+
+Application.o: Application.cpp.o
+.PHONY : Application.o
+
+# target to build an object file
+Application.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/shittyhangman.dir/build.make CMakeFiles/shittyhangman.dir/Application.cpp.o
+.PHONY : Application.cpp.o
+
+Application.i: Application.cpp.i
+.PHONY : Application.i
+
+# target to preprocess a source file
+Application.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/shittyhangman.dir/build.make CMakeFiles/shittyhangman.dir/Application.cpp.i
+.PHONY : Application.cpp.i
+
+Application.s: Application.cpp.s
+.PHONY : Application.s
+
+# target to generate assembly for a file
+Application.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/shittyhangman.dir/build.make CMakeFiles/shittyhangman.dir/Application.cpp.s
+.PHONY : Application.cpp.s
+
+Gallows.o: Gallows.cpp.o
+.PHONY : Gallows.o
+
+# target to build an object file
+Gallows.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/shittyhangman.dir/build.make CMakeFiles/shittyhangman.dir/Gallows.cpp.o
+.PHONY : Gallows.cpp.o
+
+Gallows.i: Gallows.cpp.i
+.PHONY : Gallows.i
+
+# target to preprocess a source file
+Gallows.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/shittyhangman.dir/build.make CMakeFiles/shittyhangman.dir/Gallows.cpp.i
+.PHONY : Gallows.cpp.i
+
+Gallows.s: Gallows.cpp.s
+.PHONY : Gallows.s
+
+# target to generate assembly for a file
+Gallows.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/shittyhangman.dir/build.make CMakeFiles/shittyhangman.dir/Gallows.cpp.s
+.PHONY : Gallows.cpp.s
 
 Hangman.o: Hangman.cpp.o
 .PHONY : Hangman.o
 
 # target to build an object file
 Hangman.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ucs8_spring23_review_stubs_and_drivers.dir/build.make CMakeFiles/ucs8_spring23_review_stubs_and_drivers.dir/Hangman.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/shittyhangman.dir/build.make CMakeFiles/shittyhangman.dir/Hangman.cpp.o
 .PHONY : Hangman.cpp.o
 
 Hangman.i: Hangman.cpp.i
@@ -166,7 +214,7 @@ Hangman.i: Hangman.cpp.i
 
 # target to preprocess a source file
 Hangman.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ucs8_spring23_review_stubs_and_drivers.dir/build.make CMakeFiles/ucs8_spring23_review_stubs_and_drivers.dir/Hangman.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/shittyhangman.dir/build.make CMakeFiles/shittyhangman.dir/Hangman.cpp.i
 .PHONY : Hangman.cpp.i
 
 Hangman.s: Hangman.cpp.s
@@ -174,7 +222,7 @@ Hangman.s: Hangman.cpp.s
 
 # target to generate assembly for a file
 Hangman.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ucs8_spring23_review_stubs_and_drivers.dir/build.make CMakeFiles/ucs8_spring23_review_stubs_and_drivers.dir/Hangman.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/shittyhangman.dir/build.make CMakeFiles/shittyhangman.dir/Hangman.cpp.s
 .PHONY : Hangman.cpp.s
 
 Logic.o: Logic.cpp.o
@@ -182,7 +230,7 @@ Logic.o: Logic.cpp.o
 
 # target to build an object file
 Logic.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ucs8_spring23_review_stubs_and_drivers.dir/build.make CMakeFiles/ucs8_spring23_review_stubs_and_drivers.dir/Logic.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/shittyhangman.dir/build.make CMakeFiles/shittyhangman.dir/Logic.cpp.o
 .PHONY : Logic.cpp.o
 
 Logic.i: Logic.cpp.i
@@ -190,7 +238,7 @@ Logic.i: Logic.cpp.i
 
 # target to preprocess a source file
 Logic.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ucs8_spring23_review_stubs_and_drivers.dir/build.make CMakeFiles/ucs8_spring23_review_stubs_and_drivers.dir/Logic.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/shittyhangman.dir/build.make CMakeFiles/shittyhangman.dir/Logic.cpp.i
 .PHONY : Logic.cpp.i
 
 Logic.s: Logic.cpp.s
@@ -198,7 +246,7 @@ Logic.s: Logic.cpp.s
 
 # target to generate assembly for a file
 Logic.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ucs8_spring23_review_stubs_and_drivers.dir/build.make CMakeFiles/ucs8_spring23_review_stubs_and_drivers.dir/Logic.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/shittyhangman.dir/build.make CMakeFiles/shittyhangman.dir/Logic.cpp.s
 .PHONY : Logic.cpp.s
 
 NoWordException.o: NoWordException.cpp.o
@@ -206,7 +254,7 @@ NoWordException.o: NoWordException.cpp.o
 
 # target to build an object file
 NoWordException.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ucs8_spring23_review_stubs_and_drivers.dir/build.make CMakeFiles/ucs8_spring23_review_stubs_and_drivers.dir/NoWordException.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/shittyhangman.dir/build.make CMakeFiles/shittyhangman.dir/NoWordException.cpp.o
 .PHONY : NoWordException.cpp.o
 
 NoWordException.i: NoWordException.cpp.i
@@ -214,7 +262,7 @@ NoWordException.i: NoWordException.cpp.i
 
 # target to preprocess a source file
 NoWordException.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ucs8_spring23_review_stubs_and_drivers.dir/build.make CMakeFiles/ucs8_spring23_review_stubs_and_drivers.dir/NoWordException.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/shittyhangman.dir/build.make CMakeFiles/shittyhangman.dir/NoWordException.cpp.i
 .PHONY : NoWordException.cpp.i
 
 NoWordException.s: NoWordException.cpp.s
@@ -222,7 +270,7 @@ NoWordException.s: NoWordException.cpp.s
 
 # target to generate assembly for a file
 NoWordException.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ucs8_spring23_review_stubs_and_drivers.dir/build.make CMakeFiles/ucs8_spring23_review_stubs_and_drivers.dir/NoWordException.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/shittyhangman.dir/build.make CMakeFiles/shittyhangman.dir/NoWordException.cpp.s
 .PHONY : NoWordException.cpp.s
 
 Player.o: Player.cpp.o
@@ -230,7 +278,7 @@ Player.o: Player.cpp.o
 
 # target to build an object file
 Player.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ucs8_spring23_review_stubs_and_drivers.dir/build.make CMakeFiles/ucs8_spring23_review_stubs_and_drivers.dir/Player.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/shittyhangman.dir/build.make CMakeFiles/shittyhangman.dir/Player.cpp.o
 .PHONY : Player.cpp.o
 
 Player.i: Player.cpp.i
@@ -238,7 +286,7 @@ Player.i: Player.cpp.i
 
 # target to preprocess a source file
 Player.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ucs8_spring23_review_stubs_and_drivers.dir/build.make CMakeFiles/ucs8_spring23_review_stubs_and_drivers.dir/Player.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/shittyhangman.dir/build.make CMakeFiles/shittyhangman.dir/Player.cpp.i
 .PHONY : Player.cpp.i
 
 Player.s: Player.cpp.s
@@ -246,15 +294,39 @@ Player.s: Player.cpp.s
 
 # target to generate assembly for a file
 Player.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ucs8_spring23_review_stubs_and_drivers.dir/build.make CMakeFiles/ucs8_spring23_review_stubs_and_drivers.dir/Player.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/shittyhangman.dir/build.make CMakeFiles/shittyhangman.dir/Player.cpp.s
 .PHONY : Player.cpp.s
+
+ResourceHolder.o: ResourceHolder.cpp.o
+.PHONY : ResourceHolder.o
+
+# target to build an object file
+ResourceHolder.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/shittyhangman.dir/build.make CMakeFiles/shittyhangman.dir/ResourceHolder.cpp.o
+.PHONY : ResourceHolder.cpp.o
+
+ResourceHolder.i: ResourceHolder.cpp.i
+.PHONY : ResourceHolder.i
+
+# target to preprocess a source file
+ResourceHolder.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/shittyhangman.dir/build.make CMakeFiles/shittyhangman.dir/ResourceHolder.cpp.i
+.PHONY : ResourceHolder.cpp.i
+
+ResourceHolder.s: ResourceHolder.cpp.s
+.PHONY : ResourceHolder.s
+
+# target to generate assembly for a file
+ResourceHolder.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/shittyhangman.dir/build.make CMakeFiles/shittyhangman.dir/ResourceHolder.cpp.s
+.PHONY : ResourceHolder.cpp.s
 
 States.o: States.cpp.o
 .PHONY : States.o
 
 # target to build an object file
 States.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ucs8_spring23_review_stubs_and_drivers.dir/build.make CMakeFiles/ucs8_spring23_review_stubs_and_drivers.dir/States.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/shittyhangman.dir/build.make CMakeFiles/shittyhangman.dir/States.cpp.o
 .PHONY : States.cpp.o
 
 States.i: States.cpp.i
@@ -262,7 +334,7 @@ States.i: States.cpp.i
 
 # target to preprocess a source file
 States.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ucs8_spring23_review_stubs_and_drivers.dir/build.make CMakeFiles/ucs8_spring23_review_stubs_and_drivers.dir/States.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/shittyhangman.dir/build.make CMakeFiles/shittyhangman.dir/States.cpp.i
 .PHONY : States.cpp.i
 
 States.s: States.cpp.s
@@ -270,7 +342,7 @@ States.s: States.cpp.s
 
 # target to generate assembly for a file
 States.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ucs8_spring23_review_stubs_and_drivers.dir/build.make CMakeFiles/ucs8_spring23_review_stubs_and_drivers.dir/States.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/shittyhangman.dir/build.make CMakeFiles/shittyhangman.dir/States.cpp.s
 .PHONY : States.cpp.s
 
 Tests.o: Tests.cpp.o
@@ -278,7 +350,7 @@ Tests.o: Tests.cpp.o
 
 # target to build an object file
 Tests.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ucs8_spring23_review_stubs_and_drivers.dir/build.make CMakeFiles/ucs8_spring23_review_stubs_and_drivers.dir/Tests.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/shittyhangman.dir/build.make CMakeFiles/shittyhangman.dir/Tests.cpp.o
 .PHONY : Tests.cpp.o
 
 Tests.i: Tests.cpp.i
@@ -286,7 +358,7 @@ Tests.i: Tests.cpp.i
 
 # target to preprocess a source file
 Tests.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ucs8_spring23_review_stubs_and_drivers.dir/build.make CMakeFiles/ucs8_spring23_review_stubs_and_drivers.dir/Tests.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/shittyhangman.dir/build.make CMakeFiles/shittyhangman.dir/Tests.cpp.i
 .PHONY : Tests.cpp.i
 
 Tests.s: Tests.cpp.s
@@ -294,7 +366,7 @@ Tests.s: Tests.cpp.s
 
 # target to generate assembly for a file
 Tests.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ucs8_spring23_review_stubs_and_drivers.dir/build.make CMakeFiles/ucs8_spring23_review_stubs_and_drivers.dir/Tests.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/shittyhangman.dir/build.make CMakeFiles/shittyhangman.dir/Tests.cpp.s
 .PHONY : Tests.cpp.s
 
 UserInput.o: UserInput.cpp.o
@@ -302,7 +374,7 @@ UserInput.o: UserInput.cpp.o
 
 # target to build an object file
 UserInput.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ucs8_spring23_review_stubs_and_drivers.dir/build.make CMakeFiles/ucs8_spring23_review_stubs_and_drivers.dir/UserInput.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/shittyhangman.dir/build.make CMakeFiles/shittyhangman.dir/UserInput.cpp.o
 .PHONY : UserInput.cpp.o
 
 UserInput.i: UserInput.cpp.i
@@ -310,7 +382,7 @@ UserInput.i: UserInput.cpp.i
 
 # target to preprocess a source file
 UserInput.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ucs8_spring23_review_stubs_and_drivers.dir/build.make CMakeFiles/ucs8_spring23_review_stubs_and_drivers.dir/UserInput.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/shittyhangman.dir/build.make CMakeFiles/shittyhangman.dir/UserInput.cpp.i
 .PHONY : UserInput.cpp.i
 
 UserInput.s: UserInput.cpp.s
@@ -318,7 +390,7 @@ UserInput.s: UserInput.cpp.s
 
 # target to generate assembly for a file
 UserInput.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ucs8_spring23_review_stubs_and_drivers.dir/build.make CMakeFiles/ucs8_spring23_review_stubs_and_drivers.dir/UserInput.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/shittyhangman.dir/build.make CMakeFiles/shittyhangman.dir/UserInput.cpp.s
 .PHONY : UserInput.cpp.s
 
 Visuals.o: Visuals.cpp.o
@@ -326,7 +398,7 @@ Visuals.o: Visuals.cpp.o
 
 # target to build an object file
 Visuals.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ucs8_spring23_review_stubs_and_drivers.dir/build.make CMakeFiles/ucs8_spring23_review_stubs_and_drivers.dir/Visuals.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/shittyhangman.dir/build.make CMakeFiles/shittyhangman.dir/Visuals.cpp.o
 .PHONY : Visuals.cpp.o
 
 Visuals.i: Visuals.cpp.i
@@ -334,7 +406,7 @@ Visuals.i: Visuals.cpp.i
 
 # target to preprocess a source file
 Visuals.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ucs8_spring23_review_stubs_and_drivers.dir/build.make CMakeFiles/ucs8_spring23_review_stubs_and_drivers.dir/Visuals.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/shittyhangman.dir/build.make CMakeFiles/shittyhangman.dir/Visuals.cpp.i
 .PHONY : Visuals.cpp.i
 
 Visuals.s: Visuals.cpp.s
@@ -342,7 +414,7 @@ Visuals.s: Visuals.cpp.s
 
 # target to generate assembly for a file
 Visuals.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ucs8_spring23_review_stubs_and_drivers.dir/build.make CMakeFiles/ucs8_spring23_review_stubs_and_drivers.dir/Visuals.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/shittyhangman.dir/build.make CMakeFiles/shittyhangman.dir/Visuals.cpp.s
 .PHONY : Visuals.cpp.s
 
 Word.o: Word.cpp.o
@@ -350,7 +422,7 @@ Word.o: Word.cpp.o
 
 # target to build an object file
 Word.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ucs8_spring23_review_stubs_and_drivers.dir/build.make CMakeFiles/ucs8_spring23_review_stubs_and_drivers.dir/Word.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/shittyhangman.dir/build.make CMakeFiles/shittyhangman.dir/Word.cpp.o
 .PHONY : Word.cpp.o
 
 Word.i: Word.cpp.i
@@ -358,7 +430,7 @@ Word.i: Word.cpp.i
 
 # target to preprocess a source file
 Word.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ucs8_spring23_review_stubs_and_drivers.dir/build.make CMakeFiles/ucs8_spring23_review_stubs_and_drivers.dir/Word.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/shittyhangman.dir/build.make CMakeFiles/shittyhangman.dir/Word.cpp.i
 .PHONY : Word.cpp.i
 
 Word.s: Word.cpp.s
@@ -366,7 +438,7 @@ Word.s: Word.cpp.s
 
 # target to generate assembly for a file
 Word.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ucs8_spring23_review_stubs_and_drivers.dir/build.make CMakeFiles/ucs8_spring23_review_stubs_and_drivers.dir/Word.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/shittyhangman.dir/build.make CMakeFiles/shittyhangman.dir/Word.cpp.s
 .PHONY : Word.cpp.s
 
 Wordbank.o: Wordbank.cpp.o
@@ -374,7 +446,7 @@ Wordbank.o: Wordbank.cpp.o
 
 # target to build an object file
 Wordbank.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ucs8_spring23_review_stubs_and_drivers.dir/build.make CMakeFiles/ucs8_spring23_review_stubs_and_drivers.dir/Wordbank.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/shittyhangman.dir/build.make CMakeFiles/shittyhangman.dir/Wordbank.cpp.o
 .PHONY : Wordbank.cpp.o
 
 Wordbank.i: Wordbank.cpp.i
@@ -382,7 +454,7 @@ Wordbank.i: Wordbank.cpp.i
 
 # target to preprocess a source file
 Wordbank.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ucs8_spring23_review_stubs_and_drivers.dir/build.make CMakeFiles/ucs8_spring23_review_stubs_and_drivers.dir/Wordbank.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/shittyhangman.dir/build.make CMakeFiles/shittyhangman.dir/Wordbank.cpp.i
 .PHONY : Wordbank.cpp.i
 
 Wordbank.s: Wordbank.cpp.s
@@ -390,7 +462,7 @@ Wordbank.s: Wordbank.cpp.s
 
 # target to generate assembly for a file
 Wordbank.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ucs8_spring23_review_stubs_and_drivers.dir/build.make CMakeFiles/ucs8_spring23_review_stubs_and_drivers.dir/Wordbank.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/shittyhangman.dir/build.make CMakeFiles/shittyhangman.dir/Wordbank.cpp.s
 .PHONY : Wordbank.cpp.s
 
 main.o: main.cpp.o
@@ -398,7 +470,7 @@ main.o: main.cpp.o
 
 # target to build an object file
 main.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ucs8_spring23_review_stubs_and_drivers.dir/build.make CMakeFiles/ucs8_spring23_review_stubs_and_drivers.dir/main.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/shittyhangman.dir/build.make CMakeFiles/shittyhangman.dir/main.cpp.o
 .PHONY : main.cpp.o
 
 main.i: main.cpp.i
@@ -406,7 +478,7 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ucs8_spring23_review_stubs_and_drivers.dir/build.make CMakeFiles/ucs8_spring23_review_stubs_and_drivers.dir/main.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/shittyhangman.dir/build.make CMakeFiles/shittyhangman.dir/main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -414,7 +486,7 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ucs8_spring23_review_stubs_and_drivers.dir/build.make CMakeFiles/ucs8_spring23_review_stubs_and_drivers.dir/main.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/shittyhangman.dir/build.make CMakeFiles/shittyhangman.dir/main.cpp.s
 .PHONY : main.cpp.s
 
 # Help Target
@@ -425,10 +497,16 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... ucs8_spring23_review_stubs_and_drivers"
+	@echo "... shittyhangman"
 	@echo "... Accuracy.o"
 	@echo "... Accuracy.i"
 	@echo "... Accuracy.s"
+	@echo "... Application.o"
+	@echo "... Application.i"
+	@echo "... Application.s"
+	@echo "... Gallows.o"
+	@echo "... Gallows.i"
+	@echo "... Gallows.s"
 	@echo "... Hangman.o"
 	@echo "... Hangman.i"
 	@echo "... Hangman.s"
@@ -441,6 +519,9 @@ help:
 	@echo "... Player.o"
 	@echo "... Player.i"
 	@echo "... Player.s"
+	@echo "... ResourceHolder.o"
+	@echo "... ResourceHolder.i"
+	@echo "... ResourceHolder.s"
 	@echo "... States.o"
 	@echo "... States.i"
 	@echo "... States.s"

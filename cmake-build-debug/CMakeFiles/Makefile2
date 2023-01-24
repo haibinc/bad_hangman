@@ -63,7 +63,7 @@ CMAKE_BINARY_DIR = /Users/haibin/CLionProjects/shittyhangman/cmake-build-debug
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/ucs8_spring23_review_stubs_and_drivers.dir/all
+all: CMakeFiles/shittyhangman.dir/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -71,34 +71,34 @@ preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
-clean: CMakeFiles/ucs8_spring23_review_stubs_and_drivers.dir/clean
+clean: CMakeFiles/shittyhangman.dir/clean
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/ucs8_spring23_review_stubs_and_drivers.dir
+# Target rules for target CMakeFiles/shittyhangman.dir
 
 # All Build rule for target.
-CMakeFiles/ucs8_spring23_review_stubs_and_drivers.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ucs8_spring23_review_stubs_and_drivers.dir/build.make CMakeFiles/ucs8_spring23_review_stubs_and_drivers.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ucs8_spring23_review_stubs_and_drivers.dir/build.make CMakeFiles/ucs8_spring23_review_stubs_and_drivers.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/haibin/CLionProjects/shittyhangman/cmake-build-debug/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11,12,13 "Built target ucs8_spring23_review_stubs_and_drivers"
-.PHONY : CMakeFiles/ucs8_spring23_review_stubs_and_drivers.dir/all
+CMakeFiles/shittyhangman.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/shittyhangman.dir/build.make CMakeFiles/shittyhangman.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/shittyhangman.dir/build.make CMakeFiles/shittyhangman.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/haibin/CLionProjects/shittyhangman/cmake-build-debug/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16 "Built target shittyhangman"
+.PHONY : CMakeFiles/shittyhangman.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/ucs8_spring23_review_stubs_and_drivers.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/haibin/CLionProjects/shittyhangman/cmake-build-debug/CMakeFiles 13
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/ucs8_spring23_review_stubs_and_drivers.dir/all
+CMakeFiles/shittyhangman.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/haibin/CLionProjects/shittyhangman/cmake-build-debug/CMakeFiles 16
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/shittyhangman.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/haibin/CLionProjects/shittyhangman/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/ucs8_spring23_review_stubs_and_drivers.dir/rule
+.PHONY : CMakeFiles/shittyhangman.dir/rule
 
 # Convenience name for target.
-ucs8_spring23_review_stubs_and_drivers: CMakeFiles/ucs8_spring23_review_stubs_and_drivers.dir/rule
-.PHONY : ucs8_spring23_review_stubs_and_drivers
+shittyhangman: CMakeFiles/shittyhangman.dir/rule
+.PHONY : shittyhangman
 
 # clean rule for target.
-CMakeFiles/ucs8_spring23_review_stubs_and_drivers.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ucs8_spring23_review_stubs_and_drivers.dir/build.make CMakeFiles/ucs8_spring23_review_stubs_and_drivers.dir/clean
-.PHONY : CMakeFiles/ucs8_spring23_review_stubs_and_drivers.dir/clean
+CMakeFiles/shittyhangman.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/shittyhangman.dir/build.make CMakeFiles/shittyhangman.dir/clean
+.PHONY : CMakeFiles/shittyhangman.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

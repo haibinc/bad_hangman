@@ -5,7 +5,7 @@
 		<Option title="shittyhangman"/>
 		<Option makefile_is_custom="1"/>
 		<Option compiler="gcc"/>
-		<Option virtualFolders="CMake Files\;"/>
+		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\usr\;CMake Files\..\..\..\..\usr\local\;CMake Files\..\..\..\..\usr\local\lib\;CMake Files\..\..\..\..\usr\local\lib\cmake\;CMake Files\..\..\..\..\usr\local\lib\cmake\SFML\;"/>
 		<Build>
 			<Target title="all">
 				<Option working_dir="/Users/haibin/CLionProjects/shittyhangman/cmake-build-debug"/>
@@ -17,43 +17,43 @@
 					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/haibin/CLionProjects/shittyhangman/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="ucs8_spring23_review_stubs_and_drivers">
-				<Option output="/Users/haibin/CLionProjects/shittyhangman/cmake-build-debug/ucs8_spring23_review_stubs_and_drivers" prefix_auto="0" extension_auto="0"/>
+			<Target title="shittyhangman">
+				<Option output="/Users/haibin/CLionProjects/shittyhangman/cmake-build-debug/shittyhangman" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/Users/haibin/CLionProjects/shittyhangman/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
 					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.0/include"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
 					<Add directory="/System/Library/Frameworks"/>
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/haibin/CLionProjects/shittyhangman/cmake-build-debug/Makefile&quot;  VERBOSE=1 ucs8_spring23_review_stubs_and_drivers"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/haibin/CLionProjects/shittyhangman/cmake-build-debug/Makefile&quot;  VERBOSE=1 shittyhangman"/>
 					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/haibin/CLionProjects/shittyhangman/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j8 -f &quot;/Users/haibin/CLionProjects/shittyhangman/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/haibin/CLionProjects/shittyhangman/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="ucs8_spring23_review_stubs_and_drivers/fast">
-				<Option output="/Users/haibin/CLionProjects/shittyhangman/cmake-build-debug/ucs8_spring23_review_stubs_and_drivers" prefix_auto="0" extension_auto="0"/>
+			<Target title="shittyhangman/fast">
+				<Option output="/Users/haibin/CLionProjects/shittyhangman/cmake-build-debug/shittyhangman" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/Users/haibin/CLionProjects/shittyhangman/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
 					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.0/include"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
 					<Add directory="/System/Library/Frameworks"/>
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/haibin/CLionProjects/shittyhangman/cmake-build-debug/Makefile&quot;  VERBOSE=1 ucs8_spring23_review_stubs_and_drivers/fast"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/haibin/CLionProjects/shittyhangman/cmake-build-debug/Makefile&quot;  VERBOSE=1 shittyhangman/fast"/>
 					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/haibin/CLionProjects/shittyhangman/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j8 -f &quot;/Users/haibin/CLionProjects/shittyhangman/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/haibin/CLionProjects/shittyhangman/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
@@ -81,76 +81,109 @@
 			</Target>
 		</Build>
 		<Unit filename="/Users/haibin/CLionProjects/shittyhangman/Accuracy.cpp">
-			<Option target="ucs8_spring23_review_stubs_and_drivers"/>
+			<Option target="shittyhangman"/>
 		</Unit>
 		<Unit filename="/Users/haibin/CLionProjects/shittyhangman/Accuracy.h">
-			<Option target="ucs8_spring23_review_stubs_and_drivers"/>
+			<Option target="shittyhangman"/>
+		</Unit>
+		<Unit filename="/Users/haibin/CLionProjects/shittyhangman/Application.cpp">
+			<Option target="shittyhangman"/>
+		</Unit>
+		<Unit filename="/Users/haibin/CLionProjects/shittyhangman/Application.h">
+			<Option target="shittyhangman"/>
+		</Unit>
+		<Unit filename="/Users/haibin/CLionProjects/shittyhangman/Gallows.cpp">
+			<Option target="shittyhangman"/>
+		</Unit>
+		<Unit filename="/Users/haibin/CLionProjects/shittyhangman/Gallows.h">
+			<Option target="shittyhangman"/>
 		</Unit>
 		<Unit filename="/Users/haibin/CLionProjects/shittyhangman/Hangman.cpp">
-			<Option target="ucs8_spring23_review_stubs_and_drivers"/>
+			<Option target="shittyhangman"/>
 		</Unit>
 		<Unit filename="/Users/haibin/CLionProjects/shittyhangman/Hangman.h">
-			<Option target="ucs8_spring23_review_stubs_and_drivers"/>
+			<Option target="shittyhangman"/>
 		</Unit>
 		<Unit filename="/Users/haibin/CLionProjects/shittyhangman/Logic.cpp">
-			<Option target="ucs8_spring23_review_stubs_and_drivers"/>
+			<Option target="shittyhangman"/>
 		</Unit>
 		<Unit filename="/Users/haibin/CLionProjects/shittyhangman/Logic.h">
-			<Option target="ucs8_spring23_review_stubs_and_drivers"/>
+			<Option target="shittyhangman"/>
 		</Unit>
 		<Unit filename="/Users/haibin/CLionProjects/shittyhangman/NoWordException.cpp">
-			<Option target="ucs8_spring23_review_stubs_and_drivers"/>
+			<Option target="shittyhangman"/>
 		</Unit>
 		<Unit filename="/Users/haibin/CLionProjects/shittyhangman/NoWordException.h">
-			<Option target="ucs8_spring23_review_stubs_and_drivers"/>
+			<Option target="shittyhangman"/>
 		</Unit>
 		<Unit filename="/Users/haibin/CLionProjects/shittyhangman/Player.cpp">
-			<Option target="ucs8_spring23_review_stubs_and_drivers"/>
+			<Option target="shittyhangman"/>
 		</Unit>
 		<Unit filename="/Users/haibin/CLionProjects/shittyhangman/Player.h">
-			<Option target="ucs8_spring23_review_stubs_and_drivers"/>
+			<Option target="shittyhangman"/>
+		</Unit>
+		<Unit filename="/Users/haibin/CLionProjects/shittyhangman/ResourceHolder.cpp">
+			<Option target="shittyhangman"/>
+		</Unit>
+		<Unit filename="/Users/haibin/CLionProjects/shittyhangman/ResourceHolder.h">
+			<Option target="shittyhangman"/>
 		</Unit>
 		<Unit filename="/Users/haibin/CLionProjects/shittyhangman/States.cpp">
-			<Option target="ucs8_spring23_review_stubs_and_drivers"/>
+			<Option target="shittyhangman"/>
 		</Unit>
 		<Unit filename="/Users/haibin/CLionProjects/shittyhangman/States.h">
-			<Option target="ucs8_spring23_review_stubs_and_drivers"/>
+			<Option target="shittyhangman"/>
 		</Unit>
 		<Unit filename="/Users/haibin/CLionProjects/shittyhangman/Tests.cpp">
-			<Option target="ucs8_spring23_review_stubs_and_drivers"/>
+			<Option target="shittyhangman"/>
 		</Unit>
 		<Unit filename="/Users/haibin/CLionProjects/shittyhangman/Tests.h">
-			<Option target="ucs8_spring23_review_stubs_and_drivers"/>
+			<Option target="shittyhangman"/>
 		</Unit>
 		<Unit filename="/Users/haibin/CLionProjects/shittyhangman/UserInput.cpp">
-			<Option target="ucs8_spring23_review_stubs_and_drivers"/>
+			<Option target="shittyhangman"/>
 		</Unit>
 		<Unit filename="/Users/haibin/CLionProjects/shittyhangman/UserInput.h">
-			<Option target="ucs8_spring23_review_stubs_and_drivers"/>
+			<Option target="shittyhangman"/>
 		</Unit>
 		<Unit filename="/Users/haibin/CLionProjects/shittyhangman/Visuals.cpp">
-			<Option target="ucs8_spring23_review_stubs_and_drivers"/>
+			<Option target="shittyhangman"/>
 		</Unit>
 		<Unit filename="/Users/haibin/CLionProjects/shittyhangman/Visuals.h">
-			<Option target="ucs8_spring23_review_stubs_and_drivers"/>
+			<Option target="shittyhangman"/>
 		</Unit>
 		<Unit filename="/Users/haibin/CLionProjects/shittyhangman/Word.cpp">
-			<Option target="ucs8_spring23_review_stubs_and_drivers"/>
+			<Option target="shittyhangman"/>
 		</Unit>
 		<Unit filename="/Users/haibin/CLionProjects/shittyhangman/Word.h">
-			<Option target="ucs8_spring23_review_stubs_and_drivers"/>
+			<Option target="shittyhangman"/>
 		</Unit>
 		<Unit filename="/Users/haibin/CLionProjects/shittyhangman/Wordbank.cpp">
-			<Option target="ucs8_spring23_review_stubs_and_drivers"/>
+			<Option target="shittyhangman"/>
 		</Unit>
 		<Unit filename="/Users/haibin/CLionProjects/shittyhangman/Wordbank.h">
-			<Option target="ucs8_spring23_review_stubs_and_drivers"/>
+			<Option target="shittyhangman"/>
 		</Unit>
 		<Unit filename="/Users/haibin/CLionProjects/shittyhangman/main.cpp">
-			<Option target="ucs8_spring23_review_stubs_and_drivers"/>
+			<Option target="shittyhangman"/>
 		</Unit>
 		<Unit filename="/Users/haibin/CLionProjects/shittyhangman/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/Users/haibin/CLionProjects/shittyhangman/../../../../usr/local/lib/cmake/SFML/SFMLConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\lib\cmake\SFML\"/>
+		</Unit>
+		<Unit filename="/Users/haibin/CLionProjects/shittyhangman/../../../../usr/local/lib/cmake/SFML/SFMLConfigDependencies.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\lib\cmake\SFML\"/>
+		</Unit>
+		<Unit filename="/Users/haibin/CLionProjects/shittyhangman/../../../../usr/local/lib/cmake/SFML/SFMLConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\lib\cmake\SFML\"/>
+		</Unit>
+		<Unit filename="/Users/haibin/CLionProjects/shittyhangman/../../../../usr/local/lib/cmake/SFML/SFMLSharedTargets-release.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\lib\cmake\SFML\"/>
+		</Unit>
+		<Unit filename="/Users/haibin/CLionProjects/shittyhangman/../../../../usr/local/lib/cmake/SFML/SFMLSharedTargets.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\lib\cmake\SFML\"/>
 		</Unit>
 	</Project>
 </CodeBlocks_project_file>
